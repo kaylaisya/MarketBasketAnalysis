@@ -27,5 +27,6 @@ library(dplyr)
 data_ap = read_excel("C:/Users/acer/Downloads/Market_Basket_Optimisation.xlsx")[,2:17]
 data_ap
 ```
+
 ## Conclusion
 With the use of a minimum support value of 20% and a minimum confidence value of 50%, three rules containing 2 items were obtained. The itemsets {Milk → chocolate} and {chocolate → Milk} both have support of 0.211. Therefore, it implies that 21.1% of customers who buy milk also purchase chocolate, and vice versa. Meanwhile, the item {Ice cream → Butter} has a support of 0.207. This implies that 20.7% of customers who purchase ice cream also buy butter. All three rules have a leverage greater than 1, indicating usefulness in these rules. The larger the leverage value, the stronger the relationship between the itemsets in these rules.
