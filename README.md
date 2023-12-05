@@ -15,7 +15,7 @@ The data was obtained from the [Kaggle Market Basket Analysis Data](https://www.
 3. Conclusion
 
 ## Code
-For the rest of the code check the [Market Basket Apriori.R]
+For the rest of the code check the [Market Basket Apriori.R](https://github.com/kaylaisya/MarketBasketAnalysis/blob/main/MarketBasketApriori.R)
 ```ruby
 #Library Used
 library(arules)
