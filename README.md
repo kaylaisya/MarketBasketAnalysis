@@ -1,3 +1,5 @@
+# Market Basket Analysis
+
 ## About
 Our goal is to explore and leverage association rules to uncover meaningful patterns and relationships within transactions on Market Basket data. This project showcases the practical application of the Apriori Algorithm using Rstudio. The dataset was obtained from the [Kaggle Market Basket Analysis Data](https://www.kaggle.com/datasets/ahmtcnbs/datasets-for-appiori)
 
