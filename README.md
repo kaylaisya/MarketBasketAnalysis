@@ -29,4 +29,12 @@ data_ap
 ```
 
 ## Conclusion
-With the use of a minimum support value of 20% and a minimum confidence value of 50%, three rules containing 2 items were obtained. The itemsets {Milk → chocolate} and {chocolate → Milk} both have support of 0.211. Therefore, it implies that 21.1% of customers who buy milk also purchase chocolate, and vice versa. Meanwhile, the item {Ice cream → Butter} has a support of 0.207. This implies that 20.7% of customers who purchase ice cream also buy butter. All three rules have a leverage greater than 1, indicating usefulness in these rules. The larger the leverage value, the stronger the relationship between the itemsets in these rules.
+With the use of a minimum support value of 20% and a minimum confidence value of 50%, three rules containing 2 items were obtained. The itemsets {Milk → chocolate} and {chocolate → Milk} both have support of 0.211. Therefore, it implies that 21.1% of customers who buy milk also purchases chocolate, and vice versa. Therefore, it implies that 21.1% of customers who buy milk also purchase chocolate, and vice versa. This information suggests a strong association between these two products, indicating that promoting chocolate to milk buyers (and vice versa) could increase sales.
+
+Meanwhile, the itemset {Ice cream → Butter} has a support of 0.207. This implies that 20.7% of customers who purchase ice cream also buy butter. By knowing this, retailers can consider placing butter near the ice cream section, as there is a significant likelihood that customers purchasing ice cream may also be interested in buying butter.
+
+This information enables targeted marketing strategies. Retailers can tailor promotions or discounts to consumers buying specific combinations of products. For instance, a discount on chocolate for customers purchasing milk or a bundled offer for ice cream and butter could be implemented to encourage certain purchasing behaviors.
+
+All three rules have a leverage greater than 1, indicating usefulness in these rules. The larger the leverage value, the stronger the relationship between the itemsets in these rules.
+
+In summary, with the knowledge gained from these association rules, businesses can provide actionable insights that can optimize their product offerings, and marketing strategies, ultimately leading to increased sales and improved customer satisfaction.
